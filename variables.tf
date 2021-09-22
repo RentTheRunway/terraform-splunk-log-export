@@ -67,7 +67,6 @@ variable "splunk_hec_url" {
 
 variable "splunk_hec_token" {
   description = "Splunk HEC token"
-  sensitive = true
 }
 
 # Dataflow job parameters
